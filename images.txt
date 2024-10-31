@@ -16,3 +16,18 @@ ghcr.io/apache/dolphinscheduler/dolphinscheduler-master:latest
 ghcr.io/apache/dolphinscheduler/dolphinscheduler-worker:latest
 
 #dolphinscheduler end
+
+## base service start
+mysql:8.0
+rabbitmq:management
+nacos/nacos-server:v2.2.0-slim
+bladex/sentinel-dashboard:1.8.4
+redis:latest
+docker.elastic.co/elasticsearch/elasticsearch:7.3.1
+docker.elastic.co/kibana/kibana:7.3.1
+openzipkin/zipkin:latest
+zookeeper:latest
+wurstmeister/kafka:latest
+provectuslabs/kafka-ui:latest
+
+## base service end
