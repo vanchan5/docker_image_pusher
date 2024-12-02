@@ -18,7 +18,7 @@ ghcr.io/apache/dolphinscheduler/dolphinscheduler-worker:latest
 #dolphinscheduler end
 
 ## base service start
-mysql:8.0
+#mysql:8.0
 rabbitmq:management
 nacos/nacos-server:v2.2.0-slim
 bladex/sentinel-dashboard:1.8.4
