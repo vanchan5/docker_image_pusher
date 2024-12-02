@@ -29,8 +29,8 @@ openzipkin/zipkin:latest
 zookeeper:latest
 wurstmeister/kafka:latest
 provectuslabs/kafka-ui:latest
---platform=linux/arm64 apolloconfig/apollo-configservice:latest
---platform=linux/arm64 apolloconfig/apollo-adminservice:latest
---platform=linux/arm64 apolloconfig/apollo-portal:latest
+--platform=linux/amd64 apolloconfig/apollo-configservice:latest
+--platform=linux/amd64 apolloconfig/apollo-adminservice:latest
+--platform=linux/amd64 apolloconfig/apollo-portal:latest
 
 ## base service end
