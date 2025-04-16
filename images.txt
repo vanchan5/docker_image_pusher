@@ -32,5 +32,5 @@ provectuslabs/kafka-ui:latest
 apolloconfig/apollo-configservice:latest
 apolloconfig/apollo-adminservice:latest
 apolloconfig/apollo-portal:latest
-
+portainer/portainer-ce:latest
 ## base service end
