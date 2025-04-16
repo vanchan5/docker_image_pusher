@@ -33,4 +33,5 @@ apolloconfig/apollo-configservice:latest
 apolloconfig/apollo-adminservice:latest
 apolloconfig/apollo-portal:latest
 portainer/portainer-ce:latest
+openjdk:8-jdk-alpine
 ## base service end
