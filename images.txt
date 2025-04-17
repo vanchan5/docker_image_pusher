@@ -34,4 +34,5 @@ apolloconfig/apollo-adminservice:latest
 apolloconfig/apollo-portal:latest
 portainer/portainer-ce:latest
 openjdk:8-jdk-alpine
+docker.n8n.io/n8nio/n8n
 ## base service end
