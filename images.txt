@@ -65,3 +65,6 @@ downloads.unstructured.io/unstructured-io/unstructured-api:latest
 postgres:15-alpine
 redis:6-alpine
 ### dify end
+
+### ntfy
+binwiederhier/ntfy
