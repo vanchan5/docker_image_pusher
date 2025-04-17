@@ -36,3 +36,7 @@ portainer/portainer-ce:latest
 openjdk:8-jdk-alpine
 docker.n8n.io/n8nio/n8n
 ## base service end
+
+### dify start
+langgenius/dify-api:1.2.0
+### dify end
