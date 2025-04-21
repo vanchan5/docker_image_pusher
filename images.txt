@@ -67,12 +67,13 @@ redis:6-alpine
 ### dify end
 
 ### ollama start
-ollama
-redis:6.2
-redis-commander:0.8.0
-pgvector:v0.5.0
-pgadmin4:9.1.0
-redis-commander:0.8.0
+
+ollama/ollama
+ghcr.io/joeferner/redis-commander:latest
+###redis:6.2
+###pgvector:v0.5.0
+###pgadmin4:9.1.0
+
 ### ollama end
 
 ### ntfy
