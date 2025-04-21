@@ -66,5 +66,12 @@ postgres:15-alpine
 redis:6-alpine
 ### dify end
 
+### ollama start
+ollama:0.5.10
+redis:6.2
+redis-commander:0.8.0
+pgvector:v0.5.0
+### ollama end
+
 ### ntfy
 binwiederhier/ntfy
