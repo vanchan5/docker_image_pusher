@@ -70,9 +70,10 @@ redis:6-alpine
 
 ollama/ollama
 ghcr.io/joeferner/redis-commander:latest
+spryker/redis-commander:0.8.0
 redis:6.2
-pgvector:v0.5.0
-pgadmin4:9.1.0
+pgvector/pgvector:v0.5.0
+dpage/pgadmin4:9.1.0
 
 ### ollama end
 
