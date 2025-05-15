@@ -79,3 +79,5 @@ dpage/pgadmin4:9.1.0
 
 ### ntfy
 binwiederhier/ntfy
+
+docker.io/library/node:22-alpine
