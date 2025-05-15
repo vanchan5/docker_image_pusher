@@ -81,3 +81,4 @@
 #binwiederhier/ntfy
 
 node:22.12-alpine
+node:22-alpine
