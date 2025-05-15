@@ -1,83 +1,83 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-#xhofe/alist:latest
-#支持指定架构
-#--platform=linux/arm64 xiaoyaliu/alist
-
-#dolphinscheduler start
-#linux_amd64_zookeeper:3.7.1
---platform=linux/amd64 bitnami/zookeeper:3.7.1
-bitnami/postgresql:15.2.0
-ghcr.io/apache/dolphinscheduler/dolphinscheduler-tools:latest
-ghcr.io/apache/dolphinscheduler/dolphinscheduler-api:latest
-ghcr.io/apache/dolphinscheduler/dolphinscheduler-alert-server:latest
-ghcr.io/apache/dolphinscheduler/dolphinscheduler-master:latest
-ghcr.io/apache/dolphinscheduler/dolphinscheduler-worker:latest
-
-#dolphinscheduler end
-
-## base service start
-mysql:8.0
-rabbitmq:management
-nacos/nacos-server:v2.2.0-slim
-bladex/sentinel-dashboard:1.8.4
-redis:latest
-docker.elastic.co/elasticsearch/elasticsearch:7.3.1
-docker.elastic.co/kibana/kibana:7.3.1
-openzipkin/zipkin:latest
-zookeeper:latest
-wurstmeister/kafka:latest
-provectuslabs/kafka-ui:latest
-apolloconfig/apollo-configservice:latest
-apolloconfig/apollo-adminservice:latest
-apolloconfig/apollo-portal:latest
-portainer/portainer-ce:latest
-openjdk:8-jdk-alpine
-docker.n8n.io/n8nio/n8n
-## base service end
-
-### dify start
-langgenius/dify-api:1.2.0
-langgenius/dify-web:1.2.0
-langgenius/dify-sandbox:0.2.11
-langgenius/dify-plugin-daemon:0.0.7-local
-ubuntu/squid:latest
-certbot/certbot
-nginx:latest
-semitechnologies/weaviate:1.19.0
-langgenius/qdrant:v1.7.3
-pgvector/pgvector:pg16
-tensorchord/pgvecto-rs:pg16-v0.3.0
-ghcr.io/chroma-core/chroma:0.5.20
-oceanbase/oceanbase-ce:4.3.5.1-101000042025031818
-container-registry.oracle.com/database/free:latest
-quay.io/coreos/etcd:v3.5.5
-minio/minio:RELEASE.2023-03-20T20-16-18Z
-milvusdb/milvus:v2.5.0-beta
-opensearchproject/opensearch:latest
-opensearchproject/opensearch-dashboards:latest
-opengauss/opengauss:7.0.0-RC1
-myscale/myscaledb:1.6.4
-docker.elastic.co/elasticsearch/elasticsearch:8.14.3
-docker.elastic.co/kibana/kibana:8.14.3
-downloads.unstructured.io/unstructured-io/unstructured-api:latest
-postgres:15-alpine
-redis:6-alpine
-### dify end
-
-### ollama start
-
-ollama/ollama
-ghcr.io/joeferner/redis-commander:latest
-spryker/redis-commander:0.8.0
-redis:6.2
-pgvector/pgvector:v0.5.0
-dpage/pgadmin4:9.1.0
-
-### ollama end
-
-### ntfy
-binwiederhier/ntfy
+#nginx
+##支持私库
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+##xhofe/alist:latest
+##支持指定架构
+##--platform=linux/arm64 xiaoyaliu/alist
+#
+##dolphinscheduler start
+##linux_amd64_zookeeper:3.7.1
+#--platform=linux/amd64 bitnami/zookeeper:3.7.1
+#bitnami/postgresql:15.2.0
+#ghcr.io/apache/dolphinscheduler/dolphinscheduler-tools:latest
+#ghcr.io/apache/dolphinscheduler/dolphinscheduler-api:latest
+#ghcr.io/apache/dolphinscheduler/dolphinscheduler-alert-server:latest
+#ghcr.io/apache/dolphinscheduler/dolphinscheduler-master:latest
+#ghcr.io/apache/dolphinscheduler/dolphinscheduler-worker:latest
+#
+##dolphinscheduler end
+#
+### base service start
+#mysql:8.0
+#rabbitmq:management
+#nacos/nacos-server:v2.2.0-slim
+#bladex/sentinel-dashboard:1.8.4
+#redis:latest
+#docker.elastic.co/elasticsearch/elasticsearch:7.3.1
+#docker.elastic.co/kibana/kibana:7.3.1
+#openzipkin/zipkin:latest
+#zookeeper:latest
+#wurstmeister/kafka:latest
+#provectuslabs/kafka-ui:latest
+#apolloconfig/apollo-configservice:latest
+#apolloconfig/apollo-adminservice:latest
+#apolloconfig/apollo-portal:latest
+#portainer/portainer-ce:latest
+#openjdk:8-jdk-alpine
+#docker.n8n.io/n8nio/n8n
+### base service end
+#
+#### dify start
+#langgenius/dify-api:1.2.0
+#langgenius/dify-web:1.2.0
+#langgenius/dify-sandbox:0.2.11
+#langgenius/dify-plugin-daemon:0.0.7-local
+#ubuntu/squid:latest
+#certbot/certbot
+#nginx:latest
+#semitechnologies/weaviate:1.19.0
+#langgenius/qdrant:v1.7.3
+#pgvector/pgvector:pg16
+#tensorchord/pgvecto-rs:pg16-v0.3.0
+#ghcr.io/chroma-core/chroma:0.5.20
+#oceanbase/oceanbase-ce:4.3.5.1-101000042025031818
+#container-registry.oracle.com/database/free:latest
+#quay.io/coreos/etcd:v3.5.5
+#minio/minio:RELEASE.2023-03-20T20-16-18Z
+#milvusdb/milvus:v2.5.0-beta
+#opensearchproject/opensearch:latest
+#opensearchproject/opensearch-dashboards:latest
+#opengauss/opengauss:7.0.0-RC1
+#myscale/myscaledb:1.6.4
+#docker.elastic.co/elasticsearch/elasticsearch:8.14.3
+#docker.elastic.co/kibana/kibana:8.14.3
+#downloads.unstructured.io/unstructured-io/unstructured-api:latest
+#postgres:15-alpine
+#redis:6-alpine
+#### dify end
+#
+#### ollama start
+#
+#ollama/ollama
+#ghcr.io/joeferner/redis-commander:latest
+#spryker/redis-commander:0.8.0
+#redis:6.2
+#pgvector/pgvector:v0.5.0
+#dpage/pgadmin4:9.1.0
+#
+#### ollama end
+#
+#### ntfy
+#binwiederhier/ntfy
 
 node:22.12-alpine
