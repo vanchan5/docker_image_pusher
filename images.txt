@@ -83,8 +83,8 @@
 
 #openjdk:17-jdk-slim
 
-phpmyadmin:5.2.1
-mysql:8.0.32
-spryker/redis-commander:0.8.0
-pgvector/pgvector:v0.5.0
+#phpmyadmin:5.2.1
+#mysql:8.0.32
+#spryker/redis-commander:0.8.0
+pgvector/pgvector
 dpage/pgadmin4
