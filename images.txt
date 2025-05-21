@@ -70,9 +70,7 @@
 #
 #ollama/ollama
 #ghcr.io/joeferner/redis-commander:latest
-#spryker/redis-commander:0.8.0
 #redis:6.2
-#pgvector/pgvector:v0.5.0
 #dpage/pgadmin4:9.1.0
 #
 #### ollama end
@@ -83,4 +81,10 @@
 #node:22.12-alpine
 #node:22-alpine
 
-openjdk:17-jdk-slim
+#openjdk:17-jdk-slim
+
+phpmyadmin:5.2.1
+mysql:8.0.32
+spryker/redis-commander:0.8.0
+pgvector/pgvector:v0.5.0
+dpage/pgadmin4
