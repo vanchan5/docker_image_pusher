@@ -21,7 +21,7 @@
 #mysql:8.0
 #rabbitmq:management
 #nacos/nacos-server:v2.2.0-slim
-nacos/nacos-server:2.3.2
+nacos/nacos-server:v2.3.2
 #bladex/sentinel-dashboard:1.8.4
 #redis:latest
 #docker.elastic.co/elasticsearch/elasticsearch:7.3.1
