@@ -21,7 +21,7 @@
 #mysql:8.0
 #rabbitmq:management
 #nacos/nacos-server:v2.2.0-slim
-nacos/nacos-server:v2.3.2
+#nacos/nacos-server:v2.3.2
 #bladex/sentinel-dashboard:1.8.4
 #redis:latest
 #docker.elastic.co/elasticsearch/elasticsearch:7.3.1
@@ -89,3 +89,4 @@ nacos/nacos-server:v2.3.2
 #spryker/redis-commander:0.8.0
 #registry.cn-hangzhou.aliyuncs.com/xfg-studio/pgvector:v0.5.0
 #dpage/pgadmin4:9.1.0
+flyway/flyway:latest
