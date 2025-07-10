@@ -91,4 +91,6 @@
 #dpage/pgadmin4:9.1.0
 #flyway/flyway:latest
 #xuxueli/xxl-job-admin:3.1.1
-ghcr.io/wg-easy/wg-easy
+#ghcr.io/wg-easy/wg-easy
+minio/minio:latest
+
