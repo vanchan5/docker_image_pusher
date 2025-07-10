@@ -92,5 +92,6 @@
 #flyway/flyway:latest
 #xuxueli/xxl-job-admin:3.1.1
 #ghcr.io/wg-easy/wg-easy
-minio/minio:latest
+#minio/minio:latest
+minio/minio:RELEASE.2025-04-22T22-12-26Z
 
