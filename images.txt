@@ -98,5 +98,6 @@
 #maven:3.8.5-openjdk-17
 #node:22.12-alpine
 #node:22-alpine
-python:3.11
+#python:3.11
+node:24-alpine
 
