@@ -96,6 +96,7 @@
 #minio/minio:RELEASE.2025-04-22T22-12-26Z
 #maven:3-jdk-8
 #maven:3.8.5-openjdk-17
-node:22.12-alpine
-node:22-alpine
+#node:22.12-alpine
+#node:22-alpine
+python:3.11
 
