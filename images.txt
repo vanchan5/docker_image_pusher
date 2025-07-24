@@ -99,5 +99,5 @@
 #node:22.12-alpine
 #node:22-alpine
 #python:3.11
-node:24-alpine
-
+#node:24-alpine
+ghcr.io/centralmind/gateway:v0.2.15
