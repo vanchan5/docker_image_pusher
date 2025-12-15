@@ -20,6 +20,7 @@
 ### base service start
 #mysql:8.0
 #rabbitmq:management
+--platform=linux/arm64/v8 rabbitmq:management
 #nacos/nacos-server:v2.2.0-slim
 #nacos/nacos-server:v2.3.2
 #bladex/sentinel-dashboard:1.8.4
