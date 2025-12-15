@@ -17,7 +17,7 @@
 #
 
 #--platform=linux/arm64/v8 zookeeper:latest
-#--platform=linux/arm64/v8 bitnami/postgresql:latest
+--platform=linux/arm64/v8 bitnami/postgresql:latest
 #--platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-tools:latest
 #--platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-api:latest
 #--platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-alert-server:latest
