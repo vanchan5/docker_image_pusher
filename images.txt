@@ -16,7 +16,7 @@
 #ghcr.io/apache/dolphinscheduler/dolphinscheduler-worker:latest
 #
 
---platform=linux/arm64/v8 bitnami/zookeeper:3.7.1
+--platform=linux/arm64/v8 bitnami/zookeeper:latest
 --platform=linux/arm64/v8 bitnami/postgresql:15.2.0
 --platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-tools:latest
 --platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-api:latest
