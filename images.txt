@@ -114,7 +114,7 @@
 #node:24-alpine
 #ghcr.io/centralmind/gateway:latest
 #mcp/postgres
-prom/prometheus:latest
-grafana/grafana:latest
-prom/alertmanager:latest
-prom/node-exporter:latest
+#prom/prometheus:latest
+#grafana/grafana:latest
+#prom/alertmanager:latest
+#prom/node-exporter:latest
