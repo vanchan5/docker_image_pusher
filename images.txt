@@ -20,7 +20,7 @@
 ### base service start
 #mysql:8.0
 #rabbitmq:management
---platform=linux/arm64/v8 rabbitmq:management
+#--platform=linux/arm64/v8 rabbitmq:management
 #nacos/nacos-server:v2.2.0-slim
 #nacos/nacos-server:v2.3.2
 #bladex/sentinel-dashboard:1.8.4
@@ -29,6 +29,7 @@
 #docker.elastic.co/kibana/kibana:7.3.1
 #openzipkin/zipkin:latest
 #zookeeper:latest
+--platform=linux/arm64/v8 zookeeper:latest
 #wurstmeister/kafka:latest
 #provectuslabs/kafka-ui:latest
 #apolloconfig/apollo-configservice:latest
