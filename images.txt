@@ -17,12 +17,12 @@
 #
 
 #--platform=linux/arm64/v8 zookeeper:latest
---platform=linux/arm64/v8 bitnami/postgresql:latest
-#--platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-tools:latest
-#--platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-api:latest
-#--platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-alert-server:latest
-#--platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-master:latest
-#--platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-worker:latest
+#--platform=linux/arm64/v8 bitnami/postgresql:latest
+--platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-tools:3.3.2
+--platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-api:3.3.2
+--platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-alert-server:3.3.2
+--platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-master:3.3.2
+--platform=linux/arm64/v8 ghcr.io/apache/dolphinscheduler/dolphinscheduler-worker:3.3.2
 
 ##dolphinscheduler end
 #
