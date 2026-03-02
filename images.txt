@@ -119,6 +119,11 @@
 #prom/alertmanager:latest
 #prom/node-exporter:latest
 
-elasticsearch:7.17.28
-logstash:7.17.28
-kibana:7.17.28
+#elasticsearch:7.17.28
+#logstash:7.17.28
+#kibana:7.17.28
+
+bitnami/prometheus:2.47.2
+grafana/grafana:10.2.0
+mcp/grafana
+prom/node-exporter:v1.9.1
