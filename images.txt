@@ -123,7 +123,7 @@
 #logstash:7.17.28
 #kibana:7.17.28
 
-bitnami/prometheus:2.47.2
-grafana/grafana:10.2.0
-mcp/grafana
-prom/node-exporter:v1.9.1
+registry.cn-hangzhou.aliyuncs.com/xfg-studio/prometheus:2.47.2
+registry.cn-hangzhou.aliyuncs.com/xfg-studio/grafana:10.2.0
+registry.cn-hangzhou.aliyuncs.com/xfg-studio/grafana-mcp:latest
+registry.cn-hangzhou.aliyuncs.com/xfg-studio/node-exporter:v1.9.1
