@@ -29,7 +29,7 @@
 ### base service start
 #mysql:8.0
 #rabbitmq:management
-#--platform=linux/arm64/v8 rabbitmq:management
+--platform=linux/arm64/v8 rabbitmq:management
 #nacos/nacos-server:v2.2.0-slim
 #nacos/nacos-server:v2.3.2
 #bladex/sentinel-dashboard:1.8.4
@@ -127,5 +127,4 @@
 #registry.cn-hangzhou.aliyuncs.com/xfg-studio/grafana:10.2.0
 #registry.cn-hangzhou.aliyuncs.com/xfg-studio/grafana-mcp:latest
 #registry.cn-hangzhou.aliyuncs.com/xfg-studio/node-exporter:v1.9.1
-
 --platform=linux/arm64/v8 mysql:8.0
