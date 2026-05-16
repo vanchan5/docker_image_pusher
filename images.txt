@@ -136,8 +136,8 @@
 #--platform=linux/arm64 redis:latest
 #--platform=linux/arm64 bitnami/postgresql:latest
 #--platform=linux/arm64 postgres:18
-#--platform=linux/arm64 docker.elastic.co/elasticsearch/elasticsearch:7.3.1
-#--platform=linux/arm64 docker.elastic.co/kibana/kibana:7.3.1
+--platform=linux/arm64 elasticsearch:9.4.1
+--platform=linux/arm64 kibana:9.4.1
 #--platform=linux/arm64 provectuslabs/kafka-ui:latest
 #--platform=linux/arm64 wurstmeister/kafka:latest
 #--platform=linux/arm64 openzipkin/zipkin:latest
@@ -154,6 +154,8 @@
 postgres:18
 nacos/nacos-server:v2.4.3
 xuxueli/xxl-job-admin:3.4.0
+elasticsearch:9.4.1
+kibana:9.4.1
 # linux end
 
 
