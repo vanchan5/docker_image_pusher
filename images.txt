@@ -131,16 +131,15 @@
 #--platform=linux/arm64 mysql:8.0
 #--platform=linux/arm64 rabbitmq:latest
 #--platform=linux/arm64 redis:latest
---platform=linux/arm64 bitnami/postgresql:latest
---platform=linux/arm64 kibana:7.3.1
---platform=linux/arm64 zipkin:latest
---platform=linux/arm64 zookeeper:latest
---platform=linux/arm64 kafka_ui:latest
---platform=linux/arm64 kafka:latest
---platform=linux/arm64 kafka_manager:latest
---platform=linux/arm64 nacos:v2.3.2
---platform=linux/arm64 sentinel:1.8.4
---platform=linux/arm64 elasticsearch:7.3.1
+--platform=linux/arm64 bitnami/postgresql:15.2.0
+--platform=linux/arm64 docker.elastic.co/elasticsearch/elasticsearch:7.3.1
+--platform=linux/arm64 docker.elastic.co/kibana/kibana:7.3.1
+--platform=linux/arm64 provectuslabs/kafka-ui:latest
+--platform=linux/arm64 wurstmeister/kafka:latest
+--platform=linux/arm64 openzipkin/zipkin:latest
+--platform=linux/arm64 bitnami/zookeeper:latest
+--platform=linux/arm64 nacos/nacos-server:v2.3.2
+--platform=linux/arm64 bladex/sentinel-dashboard:1.8.4
 
 
 
