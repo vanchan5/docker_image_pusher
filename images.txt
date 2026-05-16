@@ -136,8 +136,8 @@
 #--platform=linux/arm64 redis:latest
 #--platform=linux/arm64 bitnami/postgresql:latest
 #--platform=linux/arm64 postgres:18
---platform=linux/arm64/v8 elasticsearch:9.4.1
---platform=linux/arm64/v8 kibana:9.4.1
+#--platform=linux/arm64/v8 elasticsearch:9.4.1
+#--platform=linux/arm64/v8 kibana:9.4.1
 #--platform=linux/arm64 provectuslabs/kafka-ui:latest
 #--platform=linux/arm64 wurstmeister/kafka:latest
 #--platform=linux/arm64 openzipkin/zipkin:latest
@@ -151,11 +151,11 @@
 # mac m系列 end
 
 # linux start
-postgres:18
-nacos/nacos-server:v2.4.3
-xuxueli/xxl-job-admin:3.4.0
-elasticsearch:9.4.1
-kibana:9.4.1
+#postgres:18
+#nacos/nacos-server:v2.4.3
+#xuxueli/xxl-job-admin:3.4.0
+#elasticsearch:9.4.1
+#kibana:9.4.1
 # linux end
 
 
