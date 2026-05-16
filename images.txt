@@ -152,6 +152,7 @@
 
 # linux start
 postgres:18
+nacos/nacos-server:v2.4.3
 # linux end
 
 
