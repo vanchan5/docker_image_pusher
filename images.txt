@@ -140,8 +140,10 @@
 #--platform=linux/arm64/v8 kibana:9.4.1
 #--platform=linux/arm64/v8 elasticsearch:8.17.1
 #--platform=linux/arm64/v8 kibana:8.17.1
---platform=linux/arm64/v8 elasticsearch:8.14.3
---platform=linux/arm64/v8 kibana:8.14.3
+#--platform=linux/arm64/v8 elasticsearch:8.14.3
+#--platform=linux/arm64/v8 kibana:8.14.3
+--platform=linux/arm64/v8 elasticsearch:8.13.4
+--platform=linux/arm64/v8 kibana:8.13.4
 #--platform=linux/arm64 provectuslabs/kafka-ui:latest
 #--platform=linux/arm64 wurstmeister/kafka:latest
 #--platform=linux/arm64 openzipkin/zipkin:latest
@@ -162,8 +164,10 @@
 #kibana:9.4.1
 #elasticsearch:8.17.1
 #kibana:8.17.1
-elasticsearch:8.14.3
-kibana:8.14.3
+#elasticsearch:8.14.3
+#kibana:8.14.3
+elasticsearch:8.13.4
+kibana:8.13.4
 # linux end
 
 
