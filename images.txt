@@ -130,7 +130,7 @@
 #multiarch/qemu-user-static
 --platform=linux/arm64 mysql:8.0
 --platform=linux/arm64 rabbitmq:latest
---platform=linux/arm64 nacos
+--platform=linux/arm64 nacos:v2.3.2
 --platform=linux/arm64 sentinel:1.8.4
 --platform=linux/arm64 redis:latest
 --platform=linux/arm64 elasticsearch:7.3.1
