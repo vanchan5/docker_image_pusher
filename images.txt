@@ -132,10 +132,10 @@
 # mac m系列 start
 #--platform=linux/arm64 mysql:8.0
 #--platform=linux/arm64 rabbitmq:latest
---platform=linux/arm64 rabbitmq:management
+#--platform=linux/arm64 rabbitmq:management
 #--platform=linux/arm64 redis:latest
 #--platform=linux/arm64 bitnami/postgresql:latest
---platform=linux/arm64 postgres:18
+#--platform=linux/arm64 postgres:18
 #--platform=linux/arm64 docker.elastic.co/elasticsearch/elasticsearch:7.3.1
 #--platform=linux/arm64 docker.elastic.co/kibana/kibana:7.3.1
 #--platform=linux/arm64 provectuslabs/kafka-ui:latest
