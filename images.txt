@@ -153,6 +153,7 @@
 # linux start
 postgres:18
 nacos/nacos-server:v2.4.3
+xuxueli/xxl-job-admin:3.4.0
 # linux end
 
 
