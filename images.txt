@@ -128,9 +128,8 @@
 #registry.cn-hangzhou.aliyuncs.com/xfg-studio/grafana-mcp:latest
 #registry.cn-hangzhou.aliyuncs.com/xfg-studio/node-exporter:v1.9.1
 #multiarch/qemu-user-static
---platform=linux/arm64 mysql:8.0
---platform=linux/arm64 rabbitmq:latest
---platform=linux/arm64 sentinel:1.8.4
+#--platform=linux/arm64 mysql:8.0
+#--platform=linux/arm64 rabbitmq:latest
 --platform=linux/arm64 redis:latest
 --platform=linux/arm64 elasticsearch:7.3.1
 --platform=linux/arm64 kibana:7.3.1
@@ -140,7 +139,7 @@
 --platform=linux/arm64 kafka:latest
 --platform=linux/arm64 kafka_manager:latest
 --platform=linux/arm64 nacos:v2.3.2
-
+--platform=linux/arm64 sentinel:1.8.4
 
 
 
