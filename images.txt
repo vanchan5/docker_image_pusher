@@ -140,7 +140,7 @@
 #--platform=linux/arm64 zookeeper:latest
 #--platform=linux/arm64 nacos/nacos-server:v2.4.3
 #--platform=linux/arm64 bladex/sentinel-dashboard:1.8.4
---platform=linux/arm64 xxl-job-admin:2.4.1
+--platform=linux/arm64 xuxueli/xxl-job-admin:3.4.0
 --platform=linux/arm64 portainer/portainer-ce:latest
 --platform=linux/arm64 flyway/flyway:latest
 --platform=linux/arm64 minio/minio:RELEASE.2023-03-20T20-16-18Z
