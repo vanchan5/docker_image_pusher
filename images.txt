@@ -137,8 +137,8 @@
 #--platform=linux/arm64 provectuslabs/kafka-ui:latest
 #--platform=linux/arm64 wurstmeister/kafka:latest
 #--platform=linux/arm64 openzipkin/zipkin:latest
---platform=linux/arm64 zookeeper:latest
---platform=linux/arm64 nacos/nacos-server:v2.3.2
+#--platform=linux/arm64 zookeeper:latest
+--platform=linux/arm64 nacos/nacos-server:v2.4.3
 --platform=linux/arm64 bladex/sentinel-dashboard:1.8.4
 --platform=linux/arm64 xxl-job-admin:3.1.1
 --platform=linux/arm64 portainer/portainer-ce:latest
