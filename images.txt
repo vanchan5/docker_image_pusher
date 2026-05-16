@@ -138,6 +138,8 @@
 #--platform=linux/arm64 postgres:18
 #--platform=linux/arm64/v8 elasticsearch:9.4.1
 #--platform=linux/arm64/v8 kibana:9.4.1
+--platform=linux/arm64/v8 elasticsearch:8.17.1
+--platform=linux/arm64/v8 kibana:8.17.1
 #--platform=linux/arm64 provectuslabs/kafka-ui:latest
 #--platform=linux/arm64 wurstmeister/kafka:latest
 #--platform=linux/arm64 openzipkin/zipkin:latest
@@ -156,6 +158,8 @@
 #xuxueli/xxl-job-admin:3.4.0
 #elasticsearch:9.4.1
 #kibana:9.4.1
+elasticsearch:8.17.1
+kibana:8.17.1
 # linux end
 
 
