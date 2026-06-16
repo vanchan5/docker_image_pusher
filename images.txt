@@ -156,7 +156,7 @@
 #--platform=linux/arm64 portainer/portainer-ce:latest
 #--platform=linux/arm64 flyway/flyway:latest
 #--platform=linux/arm64 minio/minio:RELEASE.2023-03-20T20-16-18Z
-justsong/one-api:v0.6.11-alpha.8
+--platform=linux/arm64 justsong/one-api:v0.6.11-alpha.8
 # mac m系列 end
 
 # linux start
