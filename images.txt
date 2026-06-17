@@ -157,9 +157,9 @@
 #--platform=linux/arm64 flyway/flyway:latest
 #--platform=linux/arm64 minio/minio:RELEASE.2023-03-20T20-16-18Z
 #--platform=linux/arm64 justsong/one-api:v0.6.11-alpha.8
---platform=linux/arm64 ubuntu:22.04
---platform=linux/arm64 node:16
---platform=linux/arm64 golang:latest
+#--platform=linux/arm64 ubuntu:22.04
+#--platform=linux/arm64 node:16
+#--platform=linux/arm64 golang:latest
 # mac m系列 end
 
 # linux start
@@ -174,8 +174,9 @@
 #kibana:8.14.3
 #elasticsearch:8.13.4
 #kibana:8.13.4
-elasticsearch:7.17.28
-kibana:7.17.28
+#elasticsearch:7.17.28
+#kibana:7.17.28
+justsong/one-api
 # linux end
 
 
