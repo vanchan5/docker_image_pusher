@@ -176,7 +176,10 @@
 #kibana:8.13.4
 #elasticsearch:7.17.28
 #kibana:7.17.28
-justsong/one-api
+#justsong/one-api
+docker.io/library/node:16
+docker.io/library/alpine:lates
+docker.io/library/golang:alpine
 # linux end
 
 
