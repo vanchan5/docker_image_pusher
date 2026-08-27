@@ -162,8 +162,8 @@
 #--platform=linux/arm64 node:16
 #--platform=linux/arm64 golang:latest
 #--platform=linux/arm64 pgvector/pgvector:pg18
---platform=linux/arm64 apache/kafka:3.9.2
---platform=linux/arm64 apache/rocketmq:5.3.3
+#--platform=linux/arm64 apache/kafka:3.9.2
+#--platform=linux/arm64 apache/rocketmq:5.3.3
 # mac m系列 end
 
 # linux start
@@ -184,8 +184,8 @@
 #docker.io/library/node:16
 #docker.io/library/alpine:lates
 #docker.io/library/golang:alpine
-apache/kafka:3.9.2
-apache/rocketmq:5.3.3
+#apache/kafka:3.9.2
+#apache/rocketmq:5.3.3
 # linux end
 
 
