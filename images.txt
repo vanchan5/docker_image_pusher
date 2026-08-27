@@ -60,7 +60,7 @@
 #semitechnologies/weaviate:1.19.0
 #langgenius/qdrant:v1.7.3
 #pgvector/pgvector:pg16
-pgvector/pgvector:pg18
+#pgvector/pgvector:pg18
 #tensorchord/pgvecto-rs:pg16-v0.3.0
 #ghcr.io/chroma-core/chroma:0.5.20
 #oceanbase/oceanbase-ce:4.3.5.1-101000042025031818
@@ -161,7 +161,9 @@ pgvector/pgvector:pg18
 #--platform=linux/arm64 ubuntu:22.04
 #--platform=linux/arm64 node:16
 #--platform=linux/arm64 golang:latest
---platform=linux/arm64 pgvector:pg18
+#--platform=linux/arm64 pgvector/pgvector:pg18
+--platform=linux/arm64 apache/kafka:3.9.2
+--platform=linux/arm64 apache/rocketmq:5.3.3
 # mac m系列 end
 
 # linux start
@@ -179,9 +181,11 @@ pgvector/pgvector:pg18
 #elasticsearch:7.17.28
 #kibana:7.17.28
 #justsong/one-api
-docker.io/library/node:16
-docker.io/library/alpine:lates
-docker.io/library/golang:alpine
+#docker.io/library/node:16
+#docker.io/library/alpine:lates
+#docker.io/library/golang:alpine
+apache/kafka:3.9.2
+apache/rocketmq:5.3.3
 # linux end
 
 
