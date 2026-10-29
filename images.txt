@@ -164,7 +164,10 @@
 #--platform=linux/arm64 pgvector/pgvector:pg18
 #--platform=linux/arm64 apache/kafka:3.9.2
 #--platform=linux/arm64 apache/rocketmq:5.3.3
---platform=linux/arm64 apacherocketmq/rocketmq-dashboard:2.1.0
+#--platform=linux/arm64 apacherocketmq/rocketmq-dashboard:2.1.0
+apolloconfig/apollo-configservice:latest
+apolloconfig/apollo-adminservice:latest
+apolloconfig/apollo-portal:latest
 # mac m系列 end
 
 # linux start
